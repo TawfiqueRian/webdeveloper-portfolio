@@ -269,3 +269,52 @@ nav ul{
 .resume hr{
     width: 558px;
 }
+
+
+
+/* footer style */
+
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+    margin-top: 130px;
+}
+
+.column-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.column-description{
+    color: #757575;
+    font-size: 16px;
+}
+
+footer input[type="text"], input[type="email"]{
+    width: 461px;
+    height: 64px;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+footer textarea{
+    width: 461px;
+    height: 180px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.icons{
+    margin-right: 24px;
+    margin-top: 30px;
+}
